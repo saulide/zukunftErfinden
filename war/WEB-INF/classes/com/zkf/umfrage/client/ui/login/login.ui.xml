@@ -7,7 +7,10 @@
 		}
 	</ui:style>
 	<g:HTMLPanel>
-		Hello,
-		<g:Button styleName="{style.important}" ui:field="button" />
+	<g:FlowPanel>
+		<g:TextBox></g:TextBox>
+		<g:PasswordTextBox></g:PasswordTextBox>
+		<g:Button styleName="{style.important}" text="Login" ui:field="submit" />
+	</g:FlowPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 
